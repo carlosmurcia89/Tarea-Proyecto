@@ -1,0 +1,31 @@
+.Carlos {
+    width: 30rem
+}
+.Redonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+.segunda {
+    background-color: #EDF7FA;
+}
+.align-right {
+    text-align: right;
+    margin-top: 10px;
+    color: rgb(11, 202, 228);
+}
+.Tercera {
+background-color: white;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+.top {
+    margin-top: 10px;
+}
+.boton {
+    background-color: #FF6464;
+    color: white;
+}
+.solido {
+    border-right: 2px solid;
+}
