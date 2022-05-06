@@ -2,17 +2,18 @@
     width: 30rem
 }
 .Redonda {
-    width:300px;
-    height:300px;
+    width:243px;
+    height:243px;
     border-radius:150px;
 }
 .segunda {
     background-color: #EDF7FA;
+    margin-top: 50px;
 }
 .align-right {
     text-align: right;
     margin-top: 10px;
-    color: rgb(11, 202, 228);
+    color: #00A8CC;
 }
 .Tercera {
 background-color: white;
@@ -20,7 +21,8 @@ margin-right: 20px;
 margin-bottom: 20px;
 }
 .top {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .boton {
     background-color: #FF6464;
@@ -28,4 +30,39 @@ margin-bottom: 20px;
 }
 .solido {
     border-right: 2px solid;
+}
+.imagen {
+    width: 246px;
+    height: 180px;
+    border-radius: 10px;
+}
+.circulo {
+    background-color: #142850;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.linea {
+    border-top: #E0E0E0 2px solid;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+}
+.Border {
+    margin-top: 51px;
+    text-align: center;
+}
+.final {
+    margin-top: 26px;
+    margin-bottom: 54px;
+    margin-left: 484px;
+    color: #21243D;
+}
+
+@media(max-width: 768px){
+    .icon {
+        width: 20px;
+        height: 20px;
+    }  
 }
