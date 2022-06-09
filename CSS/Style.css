@@ -1,10 +1,15 @@
 .Carlos {
-    width: 30rem
+    width: 30rem;
+    margin-top: 15px;
 }
 .Redonda {
     width:243px;
     height:243px;
     border-radius:150px;
+    margin-top: 15px;
+}
+.foto {
+    text-align: center;
 }
 .segunda {
     background-color: #EDF7FA;
@@ -27,6 +32,9 @@ margin-bottom: 20px;
 .boton {
     background-color: #FF6464;
     color: white;
+    border-radius: 2PX;
+    border-color: transparent;
+    margin-top: 15px;
 }
 .solido {
     border-right: 2px solid;
@@ -45,8 +53,8 @@ margin-bottom: 20px;
     border-top: #E0E0E0 2px solid;
 }
 .icon {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
     margin-left: 35px;
 }
 .Border {
@@ -56,13 +64,14 @@ margin-bottom: 20px;
 .final {
     margin-top: 26px;
     margin-bottom: 54px;
-    margin-left: 484px;
     color: #21243D;
+    text-align: center;
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
     .icon {
         width: 20px;
         height: 20px;
     }  
 }
+
